@@ -1,53 +1,106 @@
+body{
+    background-color: rgb(241, 241, 239);
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    display: inline;
+    border: 1px solid blue;
+}
 
 header{
     margin:20px;
+    margin-bottom: 0px;
     background-color: tomato;
 
 }
 
-.top-page-banner{
-    display: block;
-    margin:20px;
-    padding: 30px;
 
+.main-page-container {
+    display: inline-flex;
+    
+}
+
+.top-page-banner{
+    text-align: center;
+    margin:10px;
     background: black;
     color: gold;
 }
 
+
+.banner-text{
+    padding-top: 6.0vw;
+    padding-bottom: 7.0vh;
+    align-items: center;
+    font-size: 6.0vw;
+}
+
+
 .top-row{
-    border: solid 5px blue;
-    background-color: tomato;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: row;
+    float: left;
+    border: solid 1px blue;
+    background-color: white;
     margin: 20px;
 
 
 }
 
 .mid-row{
-    border: solid 5px blue;
+    display: flex;
+    flex-direction: row;
+    border: solid 1px blue;
     margin: 20px;
-    background-color: blueviolet;
+    width: 100%;
+    background-color: white;
 }
 
 .bottom-row{
+    display: flex;
+    fill-opacity: inherit;
     margin: 20px;
-    border: solid 5px blue;
-    background-color: palegreen;
-
+    border: solid 1px blue;
+    background-color: white;
 }
 
 footer{
-    margin: 3px;
-    background-color: green;
+    margin: 20px;
+    background-color: gray;
 }
 
 .square{
+    width: fit-content;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    float: left;
     margin: 5px;
-    padding: 5px;
+    padding: 5vh;
+    padding: 5vw;
     background-color:rgb(108, 194, 168);
 }
 
 .rectangle{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    float: left;
     margin: 5px;
     padding: 5px;
+    padding: 7.0vh;
     background: rgb(228, 170, 64);
+}
+
+.bottom-page-par{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    float: left;
 }
