@@ -4,11 +4,15 @@
 
 // Code here
 
+myName ="Cam"
+
 //////////////////PROBLEM 2////////////////////
 
 // Create a variable called 'faveNum' with a value that is your favorite number. 
 
 //Code here
+
+faveNum = 27
 
 //////////////////PROBLEM 3////////////////////
 
@@ -16,11 +20,20 @@
 
 //Code here
 
+const lovesCode = true;
+
 //////////////////PROBLEM 4////////////////////
 
 // Create a function called 'sum' that takes in two parameters, 'num1' and 'num2'. The function should return the sum of the two parameters.
 
 //Code here
+
+const sum = function(num1, num2){
+	return num1 + num2
+}
+
+
+
 
 //////////////////PROBLEM 5////////////////////
 
@@ -28,11 +41,17 @@
 
 //Code here
 
+
+
 //////////////////PROBLEM 6////////////////////
 
 // Create a function called 'oddChecker' that takes in one parameter, 'num'. Your function should check to see if the parameter is even or odd. If the parameter is odd, return 'the number is odd'. If the number is even, return 'the number is even'.
 
 //Code here
+
+
+
+
 
 //////////////////PROBLEM 7////////////////////
 
@@ -47,11 +66,17 @@ const faveColors = ['red', 'green', 'black']
 
 //Code Here
 
+const colorCopy = faveColors.slice(0, 3);
+
+console.log(colorCopy)
+
 //////////////////PROBLEM 9////////////////////
 
 // Add a fourth color to the end of the 'colorCopy' array using push.
 
 //Code Here
+
+colorCopy.push("blue");
 
 //////////////////PROBLEM 10////////////////////
 
@@ -59,6 +84,10 @@ const faveColors = ['red', 'green', 'black']
 const numbers = [1, 2, 3, 4, 5]
 
 //Code Here
+
+
+
+
 
 //////////////////PROBLEM 11////////////////////
 
