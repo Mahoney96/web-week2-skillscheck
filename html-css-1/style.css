@@ -1,8 +1,17 @@
-.top-page-menu{
-    height: 10vh;
-    width: 100%;
-    box-sizing: content-box;
-}
-.second-container-paragraph {
+header{
+    background-color: tomato;
 
+}
+
+.top-page-banner{
+background: black;
+color: navy;
+}
+
+.lower-section{
+background-color: gold;
+}
+
+footer{
+    background-color: green;
 }
