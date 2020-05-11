@@ -1,17 +1,53 @@
+
 header{
+    margin:20px;
     background-color: tomato;
 
 }
 
 .top-page-banner{
-background: black;
-color: navy;
+    display: block;
+    margin:20px;
+    padding: 30px;
+
+    background: black;
+    color: gold;
 }
 
-.lower-section{
-background-color: gold;
+.top-row{
+    border: solid 5px blue;
+    background-color: tomato;
+    margin: 20px;
+
+
+}
+
+.mid-row{
+    border: solid 5px blue;
+    margin: 20px;
+    background-color: blueviolet;
+}
+
+.bottom-row{
+    margin: 20px;
+    border: solid 5px blue;
+    background-color: palegreen;
+
 }
 
 footer{
+    margin: 3px;
     background-color: green;
+}
+
+.square{
+    margin: 5px;
+    padding: 5px;
+    background-color:rgb(108, 194, 168);
+}
+
+.rectangle{
+    margin: 5px;
+    padding: 5px;
+    background: rgb(228, 170, 64);
 }
