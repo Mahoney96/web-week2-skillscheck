@@ -28,12 +28,14 @@ const lovesCode = true;
 
 //Code here
 
-const sum = function(num1, num2){
-	return num1 + num2
+let num1 = 5;
+let num2 = 5;
+
+function sum(num1, num2){
+	return num1 += num2;
 }
 
-
-
+console.log(sum(num1,num2))
 
 //////////////////PROBLEM 5////////////////////
 
@@ -41,7 +43,16 @@ const sum = function(num1, num2){
 
 //Code here
 
+let x = true;
 
+function lovesCodeChecker(x){
+if( x == true){
+	result = "true";
+} else { result = "false"
+}
+}
+
+console.log(lovesCodeChecker(true))
 
 //////////////////PROBLEM 6////////////////////
 
@@ -58,11 +69,22 @@ const sum = function(num1, num2){
 // Create a function called 'iLove' that takes in two string parameters, 'name' and 'love'. Have the function take the two parameters and return a string that says "NAMEPARAM loves LOVEPARAM" with the appropriate parameters in the string. e.g. "Joseph loves music"
 
 //Code Here
+let name= 'NAMEPARM';
+let love= 'LOVEPARM';
 
+function iLove(){
+return `${name} loves ${love}`
+}
+
+iLove = iLove()
+console.log(iLove)
 //////////////////PROBLEM 8////////////////////
 
 // Create a copy of the faveColors array called 'colorCopy' using slice.
 const faveColors = ['red', 'green', 'black']
+
+let colorCopy = faveColors.slice();
+console.log(colorCopy)
 
 //Code Here
 
@@ -85,7 +107,7 @@ const numbers = [1, 2, 3, 4, 5]
 
 //Code Here
 
-
+middleNums = numbers.slice(1, 4);
 
 
 
@@ -94,6 +116,8 @@ const numbers = [1, 2, 3, 4, 5]
 // Create an object called 'me' that has the following keys: firstName, state, age, and greeter. The value of the firstName key should be your name as a string. The value of the property state should be your current state or providence of residence as a string. The value of age should be your age as a number. greeter should be a method that returns the string 'Hello! My name is NAMEVALUE and I live in STATEVALUE' with the corresponding values. 
 
 //Code Here
+
+let me
 
 //////////////////PROBLEM 12////////////////////
 

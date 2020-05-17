@@ -1,4 +1,4 @@
-body{
+body{  
     background-color: rgb(241, 241, 239);
     margin: 0;
     padding: 0;
@@ -11,24 +11,16 @@ li{
 
 header{
     margin:20px;
-    margin-bottom: 0px;
     background-color: tomato;
 
 }
 
-
-.main-page-container {
-    display: inline-flex;
-    
-}
-
 .top-page-banner{
     text-align: center;
-    margin:10px;
+    margin:20px;
     background: black;
     color: gold;
 }
-
 
 .banner-text{
     padding-top: 6.0vw;
@@ -38,17 +30,14 @@ header{
 }
 
 
-.top-row{
-    display: flex;
+.top-row {
+    margin: 20px;
     width: 100%;
-    align-items: center;
+    display: flex;
     flex-direction: row;
-    float: left;
+    row-gap: 10px;
     border: solid 1px blue;
     background-color: white;
-    margin: 20px;
-
-
 }
 
 .mid-row{
@@ -61,7 +50,6 @@ header{
 }
 
 .bottom-row{
-    display: flex;
     fill-opacity: inherit;
     margin: 20px;
     border: solid 1px blue;
@@ -75,14 +63,12 @@ footer{
 
 .square{
     width: fit-content;
+    align-items: center;
     justify-content: space-evenly;
     display: flex;
-    align-items: center;
     flex-direction: row;
-    float: left;
-    margin: 5px;
+    margin: 5vw;
     padding: 5vh;
-    padding: 5vw;
     background-color:rgb(108, 194, 168);
 }
 
