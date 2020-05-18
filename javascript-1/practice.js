@@ -60,7 +60,9 @@ console.log(lovesCodeChecker(true))
 
 //Code here
 
-
+function oddChecker(num){
+	
+}
 
 
 
@@ -117,13 +119,24 @@ middleNums = numbers.slice(1, 4);
 
 //Code Here
 
-let me
+let me = {
+	firstName: "Cam"
+	state: "California"
+	age: 27,
+	greeter: "Hello my name is "
+};
 
 //////////////////PROBLEM 12////////////////////
 
 // Create a function called 'bigOrSmall' that takes in one parameter, 'arr', which will be an array of numbers. Inside of the bigOrSmall function, create a new array called 'answers'. Then, loop over the passed in arr parameter, and check to see if the number in the array is GREATER than 100. If it is, push 'big' as a string to the answers array. If the number is LESS than or EQUAL to 100, push 'small' as a string to the answers array. Return the answers array inside of the function.
 
 // Code here
+
+bigOrSmall(arr){
+answers = [0];{
+	if(answers > 100)
+}
+}
 
 //////////////////PROBLEM 13////////////////////
 
@@ -134,7 +147,9 @@ let me
 //////////////////PROBLEM 14 - 18 Setup////////////////////
 
 // Below is an array, myNumbers. You will be using .map, .filter, .reduce and .forEach to manipulate the array in the following problems.
-const myNumbers = [3, 55, 788, 2, 1]
+// const myNumbers = [3, 55, 788, 2, 1]
+
+
 
 
 //////////////////PROBLEM 14////////////////////
@@ -164,7 +179,7 @@ const myNumbers = [3, 55, 788, 2, 1]
 //////////////////PROBLEM 18////////////////////
 
 // Did you know that George Foreman has five sons named George? Go ahead and change everyone's name in the notGeorge array to George using .map. Store the resulting array in a variable named 'forTheLoveOfGeorge'.
-const notGeorge = ['Louis', 'Ted', 'Bill', 'Sharon', 'Mark', 'Angela']
+// const notGeorge = ['Louis', 'Ted', 'Bill', 'Sharon', 'Mark', 'Angela']
 
 // Code Here
 
