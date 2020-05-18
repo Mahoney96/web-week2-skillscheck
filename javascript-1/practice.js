@@ -73,12 +73,10 @@ function oddChecker(num){
 //Code Here
 let name= 'NAMEPARM';
 let love= 'LOVEPARM';
-
+iLove = iLove()
 function iLove(){
 return `${name} loves ${love}`
 }
-
-iLove = iLove()
 console.log(iLove)
 //////////////////PROBLEM 8////////////////////
 
@@ -119,12 +117,29 @@ middleNums = numbers.slice(1, 4);
 
 //Code Here
 
-let me = {
-	firstName: "Cam"
-	state: "California"
-	age: 27,
-	greeter: "Hello my name is "
-};
+
+let firstName = "Cam";
+let state = "San Diego, California";
+let age = 27;
+
+const me = {
+    greeter: function greeter(){
+      return `Hello my name is ${firstName} and I live in ${state}`;
+    }
+}
+
+
+console.log(me.greeter())
+
+// const me = {
+//     this.firstName = firstName;
+//     this.state = state;
+//     this.age = age;
+//     this.greeter = function (){
+//       return "Hello my Name is" + this.firstName + "and I live in" + this.state;
+//     }
+// }
+// console.log(me.greeter)
 
 //////////////////PROBLEM 12////////////////////
 
@@ -196,6 +211,8 @@ const people = [
 ]
 
 // Code Here
+enemies 
+
 
 //////////////////PROBLEM 20////////////////////
 
